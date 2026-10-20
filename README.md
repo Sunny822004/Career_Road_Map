@@ -58,11 +58,11 @@
 - Save career functionality
 
 ### 6. Career Roadmaps
-- **Technology Domain:**
-  - Web Developer (5 steps)
-  - Data Scientist (5 steps)
-  - Cybersecurity (5 steps)
-  - Cloud Engineer (5 steps)
+- **Engineering Domain:**
+  - Computer Science (5 steps)
+  - Information Technology (5 steps)
+  - Machanical (5 steps)
+  - Electronic and Telicomunication (5 steps)
   
 - **Medical Domain:**
   - MBBS (5 steps)
