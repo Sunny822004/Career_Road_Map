@@ -165,33 +165,6 @@ Each roadmap includes:
 6. Return top 3 careers sorted by score
 ```
 
-### CET Predictor Algorithm:
-
-```
-1. Get user inputs: Branch, Percentile, Category
-
-2. Apply category adjustment:
-   - OPEN: +0
-   - OBC: +5
-   - SC: +10
-   - ST: +12
-   - NT/VJ: +8
-   - SBC: +7
-   - EWS: +3
-
-3. Calculate adjusted percentile
-
-4. Compare with college cutoffs:
-   - Safe: Adjusted >= Cutoff + 5
-   - Moderate: Adjusted >= Cutoff - 5
-   - Dream: Adjusted >= Cutoff - 15
-
-5. Calculate match percentage
-
-6. Return categorized college list
-```
-
----
 
 ## 📁 File Structure Summary
 
@@ -274,22 +247,12 @@ python app.py
    - Considers multiple factors (interest, education, work style, goals)
    - Returns top 3 matches with detailed information
 
-2. **CET Admission Predictor**
-   - Uses historical cutoff data
-   - Category-wise adjustments
-   - Three-tier prediction system
-
-3. **Progress Tracking**
-   - Visual progress bars
-   - Badge system for motivation
-   - AI insights based on progress
-
-4. **Multi-Domain Coverage**
+2. **Multi-Domain Coverage**
    - 7 career domains
    - 22+ career paths
    - Detailed roadmaps for each
 
-5. **Technical Implementation**
+3. **Technical Implementation**
    - Flask backend with MySQL
    - Session-based authentication
    - Responsive Bootstrap frontend
