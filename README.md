@@ -87,18 +87,7 @@ Each roadmap includes:
 - Project ideas
 - Certification recommendations
 
-### 7. CET Score Predictor
-- Input fields: Branch, CET Percentile, Category
-- Historical cutoff data for Maharashtra colleges
-- Category-wise cutoff adjustments
-- Three prediction categories:
-  - Safe Colleges (high probability)
-  - Moderate Colleges (good chance)
-  - Dream Colleges (reach colleges)
-- Match percentage calculation
-- College details with website links
-
-### 8. Profile Management
+### 7. Profile Management
 - View profile information
 - Update name and email
 - Change password
@@ -106,20 +95,6 @@ Each roadmap includes:
 - Display completed modules
 - User statistics display
 
-### 9. Resources Page
-- Free Courses (6 platforms)
-- YouTube Channels (6 channels)
-- Certification Platforms (5 platforms)
-- Internship Platforms (5 platforms)
-- Newsletter subscription
-- Coming soon features preview
-
-### 10. Error Handling
-- Custom 404 Page Not Found
-- Custom 500 Server Error
-- Flash messages for user feedback
-
----
 
 ## 🗄 Database Structure
 
@@ -130,13 +105,7 @@ Each roadmap includes:
 4. **colleges** - 10 columns (id, college_name, branch, cutoff_percentile, category, location, type, ranking, website, created_at)
 5. **roadmap_modules** - 7 columns (id, career_id, module_name, module_order, duration_weeks, topics, resources)
 6. **user_assessments** - 8 columns (id, user_id, interest, education_level, work_preference, career_goal, recommended_careers, assessment_date)
-7. **badges** - 5 columns (id, badge_name, description, icon, criteria)
-8. **user_badges** - 4 columns (id, user_id, badge_id, earned_at)
 
-### Sample Data Included:
-- 22+ Career entries across 7 domains
-- 40+ College entries for CET predictor
-- 8 Badge definitions
 
 ---
 
