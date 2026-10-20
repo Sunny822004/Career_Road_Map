@@ -352,15 +352,6 @@ python app.py
 - [ ] Job portal integration
 - [ ] AI chatbot for queries
 
----
-
-## 📞 Support
-
-For any issues or questions:
-- Check README.md for detailed instructions
-- Review database schema for data structure
-- Check app.py for backend logic
-- Contact: support@careerguide.ai
 
 ---
 
